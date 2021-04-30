@@ -11,8 +11,7 @@ if [ $option = "2" ]; then
 
 rsyncd() {
 
-	rsync -r --delete "$1"/* "$2"
-	
+	rsync -r --delete "$1"/* "$2"	
 }		
 
 rsyncd $1 $2
